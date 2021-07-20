@@ -26,6 +26,7 @@
     padding-left: 14px;
     padding-right: 14px;
     flex-wrap:wrap;
+    align-items:center;
 }
 
 .search-input{
@@ -41,11 +42,12 @@ input:focus{
     outline: none;
 }
 
-.material-icons-outlined{
+.material-icons.md-18{
     display:flex;
-    align-items:center;
     padding-left:8px;
     padding-right: 8px;
+    color: rgba(0, 0, 0, 0.36); 
+    font-size: 20px;
 }
 
 .button{
@@ -68,4 +70,8 @@ input:focus{
     min-width: 54px;
     text-align: center;
     cursor:pointer;
+}
+
+div.search-box:hover{
+    box-shadow: black;
 }
