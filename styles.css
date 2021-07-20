@@ -1,3 +1,11 @@
+body, .box{
+    min-width: 500px;
+}
+
+.centerr{
+    padding-top:100px;
+}
+
 .google-logo
 {
     display: flex;
@@ -6,7 +14,6 @@
 
 .box{
     height: 140px;
-    min-width: 584px;
     margin: 0 auto;
     padding:20px;
     box-sizing: border-box;
@@ -74,4 +81,80 @@ input:focus{
 
 div.search-box:hover{
     box-shadow: black;
+}
+
+.pfp{
+    height: 32px;
+    border-radius: 32px;
+    margin: 0 8px;
+}
+
+#apps-icon{
+    font-size:24px;
+    color: rgba(0, 0, 0, 0.56); 
+    padding-left:27px;
+
+}
+
+.navbar{
+    font-family:arial, sans-serif;
+    font-size: 13px;
+    display:flex;
+    justify-content:flex-end;
+    height: 48px;
+}
+li{
+    padding-left: 15px;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0 ;
+}
+
+.footer-1, .footer-2{
+    color:#222;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    border-bottom: 1px solid  #dadce0;
+}
+
+footer{
+position:fixed;
+bottom:0;
+background-color: #f2f2f2;
+width:100%;
+min-width: 500px;
+}
+
+.footer-1{
+    padding: 15px 30px; 
+    color: rgba(0,0,0,.54);
+
+}
+
+.footer-2{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-2-1{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left:15px;
+}
+
+.abc{
+    padding: 15px;
+    max-width:max-content; 
+    word-wrap: normal;
+    color: rgba(0,0,0,.54);
+}
+
+.footer-2-2{
+    padding: 0 20px;
 }
