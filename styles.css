@@ -1,0 +1,25 @@
+.google-logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    border: 1px solid #dfe1e5;
+    height: 140px;
+    min-width: 584px;
+    margin: 0 auto;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.search-box{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width:auto;
+    max-width: 584px;
+    height: 44px;
+    display: flex;
+    margin: 0 auto;
+
+}
