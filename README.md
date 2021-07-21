@@ -1,1 +1,1 @@
-Built a Google Homepage as a part of The Odin Project
+Google Homepage using HTML and CSS.
