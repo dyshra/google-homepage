@@ -158,3 +158,11 @@ min-width: 500px;
 .footer-2-2{
     padding: 0 20px;
 }
+
+.search-box:hover{
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.01), 0px 2px 5px 1px  rgba(0, 0, 0, 0.16);
+}
+
+.buttons:hover{
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.01), 0px 0px 0px 1px  rgba(0, 0, 0, 0.20);
+}
